@@ -49,7 +49,7 @@ for message in st.session_state["messages"]:
 #genai.configure(api_key=api_key)
 
 # ✅ Load CSV file (ensure it exists)
-csv_path = "/workspaces/test-sfera/test_data.csv"
+csv_path = "test_data.csv"
 #if os.path.exists(csv_path):
 df = pd.read_csv(csv_path)
 #else:
